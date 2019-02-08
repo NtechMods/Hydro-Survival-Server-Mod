@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Research Groups and Blocks -->
+   <!-- Tier 1 -->
+   <ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 2 -->	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 3 -->	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 4 -->	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+   
+<!-- Hydrogen thrust research -->
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHAT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHAT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHAT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHAT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHVT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHVT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>21</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 2 research -->
+	
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHAT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHAT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHAT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHAT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHVT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHVT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 2 research -->
+	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHAT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHAT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHAT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHAT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHVT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHVT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 3 research -->
+	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHAT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHAT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHAT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHAT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SBSHVT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LBLHVT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechThrustTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeAirtightHydrogenTank" />
+      <UnlockedByGroups>
+        <GroupSubtype>19</GroupSubtype>
+      </UnlockedByGroups>
+	</ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="SmallBlockLargeDrill" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+        <GroupSubtype>9</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Gyro" Subtype="EezoLargeBlockGyro" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
+      <UnlockedByGroups>
+        <GroupSubtype>15</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive" />
+      <UnlockedByGroups>
+        <GroupSubtype>26</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive" />
+      <UnlockedByGroups>
+        <GroupSubtype>26</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="500ImpossibilityCube" />
+      <UnlockedByGroups>
+        <GroupSubtype>INB4</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="1000ImpossibilityCube" />
+      <UnlockedByGroups>
+        <GroupSubtype>INB4</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="INB4Module" />
+      <UnlockedByGroups>
+        <GroupSubtype>4</GroupSubtype>
+        <GroupSubtype>23</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+   </ResearchBlocks>
+   
+   
+   <ResearchGroups>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier1" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT1" />
+	  </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier2" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT2" />		
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT2" />
+	  </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier3" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT3" />		
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT3" />
+	  </Members>
+    </ResearchGroup>
+	
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="INB4" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="INB4Module" />
+      </Members>
+    </ResearchGroup>
+   </ResearchGroups>
+</Definitions>

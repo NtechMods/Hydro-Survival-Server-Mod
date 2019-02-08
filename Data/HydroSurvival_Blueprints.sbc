@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>cablargehydrogeninjector</SubtypeId>
+      </Id>
+      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <Icon>Textures\Icons\injector.dds</Icon>
+      <Prerequisites>
+        <Item Amount="360" TypeId="Ingot" SubtypeId="compressioniron" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="compressioncobalt" />
+		<Item Amount="40" TypeId="Ingot" SubtypeId="compressionsilver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="largehydrogeninjector" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>largehydrogeninjector</SubtypeId>
+      </Id>
+      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <Icon>Textures\Icons\injector.dds</Icon>
+      <Prerequisites>
+        <Item Amount="360" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="40" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="largehydrogeninjector" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ImpossiblityCore</SubtypeId>
+      </Id>
+      <DisplayName>Impossiblity Core</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Prerequisites>
+		<Item Amount="5" TypeId="Ingot" SubtypeId="ImpossiblityShard" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImpossiblityCore" />
+      <BaseProductionTimeInSeconds>1000000000000000</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
