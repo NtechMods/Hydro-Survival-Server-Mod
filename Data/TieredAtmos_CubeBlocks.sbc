@@ -124,7 +124,7 @@
 	  <BlockVariants>
         <BlockVariant>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LBLAtmosT3</SubtypeId>
+          <SubtypeId>LBLAtmosT1</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <Center x="0" y="0" z="1" />
@@ -293,7 +293,7 @@
 	  <BlockVariants>
         <BlockVariant>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LBLAtmosT3</SubtypeId>
+          <SubtypeId>LBLAtmosT1</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <Center x="0" y="0" z="1" />
@@ -465,7 +465,7 @@
 	  <BlockVariants>
         <BlockVariant>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LBLAtmosT3</SubtypeId>
+          <SubtypeId>LBLAtmosT2</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <Center x="0" y="0" z="1" />
@@ -634,7 +634,7 @@
 	  <BlockVariants>
         <BlockVariant>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LBLAtmosT3</SubtypeId>
+          <SubtypeId>LBLAtmosT2</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <Center x="0" y="0" z="1" />
@@ -1147,7 +1147,7 @@
 	  <BlockVariants>
         <BlockVariant>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LBLAtmosT3</SubtypeId>
+          <SubtypeId>LBLAtmosT4</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <Center x="0" y="0" z="1" />
@@ -1316,7 +1316,7 @@
 	  <BlockVariants>
         <BlockVariant>
           <TypeId>Thrust</TypeId>
-          <SubtypeId>LBLAtmosT3</SubtypeId>
+          <SubtypeId>LBLAtmosT4</SubtypeId>
         </BlockVariant>
       </BlockVariants>
       <Center x="0" y="0" z="1" />
@@ -1367,4 +1367,34 @@
     </Definition>
     <!-- End Tier 4 Thrust-->
  </CubeBlocks>
+ <BlockPositions>
+  <BlockPosition>
+   <Name>SAtmosT1</Name>
+    <Position>
+     <X>7</X>
+     <Y>24</Y>
+   </Position>
+  </BlockPosition>
+  <BlockPosition>
+   <Name>SAtmosT2</Name>
+    <Position>
+     <X>8</X>
+     <Y>24</Y>
+   </Position>
+  </BlockPosition>
+  <BlockPosition>
+   <Name>SAtmosT3</Name>
+    <Position>
+     <X>9</X>
+     <Y>24</Y>
+   </Position>
+  </BlockPosition>
+  <BlockPosition>
+   <Name>SAtmosT4</Name>
+    <Position>
+     <X>9</X>
+     <Y>25</Y>
+   </Position>
+  </BlockPosition>
+ </BlockPositions>
 </Definitions>

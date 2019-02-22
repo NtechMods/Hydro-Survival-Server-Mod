@@ -4107,7 +4107,7 @@
         <Component Subtype="ImpossibilityCore" Count="1">
 			<DeconstructId>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Platinum</SubtypeId>
+            <SubtypeId>ProbabilityShard</SubtypeId>
           </DeconstructId>
 		</Component>
         <Component Subtype="Motor" Count="2" />
@@ -5043,6 +5043,41 @@
       <Position>
         <X>7</X>
         <Y>22</Y>
+      </Position>
+    </BlockPosition>
+      <BlockPosition>
+      <Name>LHAT1</Name>
+      <Position>
+        <X>0</X>
+        <Y>24</Y>
+      </Position>
+    </BlockPosition>
+    <BlockPosition>
+      <Name>LHAT2</Name>
+      <Position>
+        <X>1</X>
+        <Y>24</Y>
+      </Position>
+    </BlockPosition>
+    <BlockPosition>
+      <Name>LHAT3</Name>
+      <Position>
+        <X>2</X>
+        <Y>24</Y>
+      </Position>
+    </BlockPosition>
+    <BlockPosition>
+      <Name>LHAT4</Name>
+      <Position>
+        <X>3</X>
+        <Y>24</Y>
+      </Position>
+    </BlockPosition>
+    <BlockPosition>
+      <Name>EezoGyro</Name>
+      <Position>
+        <X>4</X>
+        <Y>24</Y>
       </Position>
     </BlockPosition>
  </BlockPositions>

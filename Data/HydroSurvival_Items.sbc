@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- Blueprints -->
+
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>largehydrogeninjector</SubtypeId>
+      </Id>
+      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <Icon>Textures\Icons\injector.dds</Icon>
+      <Prerequisites>
+        <Item Amount="360" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="40" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="largehydrogeninjector" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ImpossibilityCoreItem</SubtypeId>
+      </Id>
+      <DisplayName>Impossibility Core</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Prerequisites>
+		<Item Amount="23" TypeId="Ingot" SubtypeId="ProbabilityShard" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ProbabilityShardOretoIngot</SubtypeId>
+      </Id>
+      <DisplayName>Probability Shard</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
+      </Prerequisites>
+      <Result Amount="0.001" TypeId="Ingot" SubtypeId="ProbabilityShard" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="270" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="540" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="46" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="70" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="10" TypeId="Ore" SubtypeId="Organic" />
+      </Results>
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+  
+  
+<!-- Components -->  
+  
+  <Components>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>largehydrogeninjector</SubtypeId>
+      </Id>
+      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <Icon>Textures\Icons\injector.dds</Icon>
+      <Size>
+        <X>0.04</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>15</Volume>
+      <Model>Models\Components\largehydroinjector.mwm</Model>
+      <MaxIntegrity>40</MaxIntegrity>
+      <DropProbability>0.2</DropProbability>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ImpossibilityCore</SubtypeId>
+      </Id>
+      <DisplayName>Impossibility Core</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Size>
+        <X>0.04</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\ImpossibilityCore.mwm</Model>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.0002</DropProbability>
+    </Component>
+
+  </Components>
+  
+ <!-- Physical Items -->
+ 
+  <PhysicalItems>
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ProbabilityShard</SubtypeId>
+      </Id>
+      <DisplayName>Probability Shard</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.001</Mass>
+      <Volume>0.001</Volume>
+      <Model>Models\Components\ImpossibilityCore.mwm</Model>
+      <IconSymbol>Pshard</IconSymbol>
+    </PhysicalItem>
+
+  </PhysicalItems>
+  
+  
+<!-- Assembler Class Entries-->
+  
+  
+  <BlueprintClassEntries>
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLHAT1" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLHAT2" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLHAT3" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLHAT4" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSHAT1" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSHAT2" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSHAT3" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSHAT4" />
+   <!-- Small Block -->
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/RCSSBST" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/RCSIonSBST" />
+   <!-- Small Block -->
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLAtmosT1" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSAtmosT1" />
+	
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLAtmosT2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSAtmosT2" />
+	
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLAtmosT3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSAtmosT3" />
+	
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBLAtmosT4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SBSAtmosT4" />
+
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLHAT1" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLHAT2" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLHAT3" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLHAT4" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSHAT1" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSHAT2" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSHAT3" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSHAT4" />
+   <!-- Large Block -->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/RCSLBST" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/RCSIonLBST" />
+   <!-- Large Block -->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLAtmosT1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSAtmosT1" />
+	
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLAtmosT2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSAtmosT2" />
+	
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLAtmosT3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSAtmosT3" />
+	
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLAtmosT4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSAtmosT4" />
+	
+	<Entry Class="Components" BlueprintSubtypeId="largehydrogeninjector" />
+	<Entry Class="Components" BlueprintSubtypeId="ImpossibilityCoreItem" />
+	<Entry Class="compressassemblymods" BlueprintSubtypeId="cablargehydrogeninjector" />
+	<Entry Class="Ingots" BlueprintSubtypeId="ProbabilityShardOretoIngot" />
+
+  </BlueprintClassEntries>
+</Definitions>
