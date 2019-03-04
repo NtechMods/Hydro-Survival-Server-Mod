@@ -19,6 +19,19 @@
       <Result Amount="1" TypeId="Component" SubtypeId="largehydrogeninjector" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>advancedlargehydrogeninjector</SubtypeId>
+      </Id>
+      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <Icon>Textures\Icons\injector.dds</Icon>
+      <Prerequisites>
+      <Result Amount="15" TypeId="Component" SubtypeId="largehydrogeninjector" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="advancedlargehydrogeninjector" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
 
     <Blueprint>
       <Id>
@@ -45,7 +58,7 @@
       <Prerequisites>
 		<Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
       </Prerequisites>
-      <Result Amount="0.001" TypeId="Ingot" SubtypeId="ProbabilityShard" />
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="ProbabilityShard" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 	    <Blueprint>
@@ -53,7 +66,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <DisplayName>Ingots</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="10000" TypeId="Ore" SubtypeId="Stone" />
@@ -77,6 +90,24 @@
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>largehydrogeninjector</SubtypeId>
+      </Id>
+      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <Icon>Textures\Icons\injector.dds</Icon>
+      <Size>
+        <X>0.04</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>15</Volume>
+      <Model>Models\Components\largehydroinjector.mwm</Model>
+      <MaxIntegrity>40</MaxIntegrity>
+      <DropProbability>0.2</DropProbability>
+    </Component>    
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>advancedlargehydrogeninjector</SubtypeId>
       </Id>
       <DisplayName>Large Hydrogen Injector</DisplayName>
       <Icon>Textures\Icons\injector.dds</Icon>
