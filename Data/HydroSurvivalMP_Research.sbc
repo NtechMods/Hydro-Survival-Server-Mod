@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <!-- Research Groups and Blocks -->
-   <!-- Tier 1 -->
+
+   <!-- RCS Research -->
    <ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="RCSLBST" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="RCSSBST" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="RCSIonLBST" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="RCSIonSBST" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+
+
+   <!-- Tier 1 -->
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT1" />
       <UnlockedByGroups>

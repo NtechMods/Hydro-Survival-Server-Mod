@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Research Groups and Blocks -->
+   <!-- Tier 1 -->
+   <ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel1efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel1efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel1efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel1efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 2 -->	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel2efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel2efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel2efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel2efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 3 -->	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel3efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel3efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel3efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel3efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<!-- Tier 4 -->	
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel4efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel4efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel4efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel4efficiency" />
+      <UnlockedByGroups>
+        <GroupSubtype>EfficiencyThrustT3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+   </ResearchBlocks>
+   
+   
+   <ResearchGroups>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="EfficiencyThrustT1" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel1efficiency" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel1efficiency" />
+		<BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel1efficiency" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel1efficiency" />
+	  </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="EfficiencyThrustT2" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel2efficiency" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel2efficiency" />
+		<BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel2efficiency" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel2efficiency" />
+	  </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="EfficiencyThrustT3" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustLevel3efficiency" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustLevel3efficiency" />
+		<BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustLevel3efficiency" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustLevel3efficiency" />
+	  </Members>
+    </ResearchGroup>
+ 
+   </ResearchGroups>
+</Definitions>
