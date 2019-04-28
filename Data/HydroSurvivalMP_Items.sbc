@@ -9,7 +9,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>largehydrogeninjector</SubtypeId>
       </Id>
-      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <DisplayName>Hydrogen Injector</DisplayName>
       <Icon>Textures\Icons\injector.dds</Icon>
       <Prerequisites>
         <Item Amount="360" TypeId="Ingot" SubtypeId="Iron" />
@@ -24,7 +24,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>advancedlargehydrogeninjector</SubtypeId>
       </Id>
-      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <DisplayName>Advanced Hydrogen Injector</DisplayName>
       <Icon>Textures\Icons\injector.dds</Icon>
       <Prerequisites>
       <Result Amount="15" TypeId="Component" SubtypeId="largehydrogeninjector" />
@@ -61,7 +61,7 @@
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="ProbabilityShard" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-	    <Blueprint>
+<!--	    <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
@@ -79,7 +79,7 @@
 		<Item Amount="10" TypeId="Ore" SubtypeId="Organic" />
       </Results>
       <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
-    </Blueprint>
+    </Blueprint> -->
   </Blueprints>
   
   

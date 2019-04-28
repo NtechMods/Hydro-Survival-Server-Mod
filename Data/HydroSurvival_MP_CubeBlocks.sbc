@@ -4174,7 +4174,7 @@
         <Component Subtype="ImpossibilityCore" Count="1">
 			<DeconstructId>
             <TypeId>Ingot</TypeId>
-            <SubtypeId>Uranium</SubtypeId>
+            <SubtypeId>ProbabilityShard</SubtypeId>
           </DeconstructId>
 		</Component>
         <Component Subtype="Motor" Count="4" />
@@ -4407,57 +4407,7 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
     </Definition>	
-<!-- Small Grid 1x1x1 Battery 
 
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SBSmallBattery</SubtypeId>
-      </Id>
-      <DisplayName>1x1 Small Battery</DisplayName>
-      <Icon>Textures/GUI/Icons/Cubes/Battery.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\1x1SmallBattery.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="PowerCell" Count="2" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>1x1x1SmallBattery</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>8</BuildTimeSeconds>
-
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>0.2</MaxPowerOutput>
-
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <RequiredPowerInput>0.6</RequiredPowerInput>
-      <AdaptibleInput>true</AdaptibleInput>
-      <MaxStoredPower>0.09</MaxStoredPower>
-      <InitialStoredPowerRatio>0.04</InitialStoredPowerRatio>
-
-      <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </InventorySize>
-      <Public>true</Public>
-      <DamageEffectId>214</DamageEffectId>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-    </Definition> -->
-	
 <!-- Super Gyro -->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
@@ -4714,16 +4664,6 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
-      <!-- <UnlockedBy>
-        <BlockId>
-          <TypeId>OxygenGenerator</TypeId>
-          <SubtypeId>OxygenGeneratorSmall</SubtypeId>
-        </BlockId>
-        <BlockId>
-          <TypeId>OxygenGenerator</TypeId>
-          <SubtypeId></SubtypeId>
-        </BlockId>
-      </UnlockedBy> -->
 	  <BlockVariants>
 	   <BlockVariant>
 	    <TypeId>OxygenTank</TypeId>
@@ -4796,16 +4736,6 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
-      <!-- <UnlockedBy>
-        <BlockId>
-          <TypeId>OxygenGenerator</TypeId>
-          <SubtypeId>OxygenGeneratorSmall</SubtypeId>
-        </BlockId>
-        <BlockId>
-          <TypeId>OxygenGenerator</TypeId>
-          <SubtypeId></SubtypeId>
-        </BlockId>
-      </UnlockedBy> -->
 	  <GuiVisible>false</GuiVisible>
 	  <IsAirtight>true</IsAirtight>
     </Definition>
