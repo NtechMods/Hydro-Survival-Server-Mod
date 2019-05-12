@@ -3,7 +3,14 @@
 
    
  <!--Cubeblocks start -->
- 
+ <!-- Thrust values 
+         Vanilla    Tier 1      Tier 2      Tier 3      Tier 4
+LB L     7200000    13320000    19080000    24840000    29880000
+LB S     1080000    1998000     2862000     3726000     4482000
+
+SB L     480000     888000      1272000     1656000     1992000
+SB S     98400      182040      260760      339480      408360
+-->
   <CubeBlocks>
      <!--HydrogenThrusters level 1 -->    
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -19,13 +26,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="100" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="255" />
+        <Component Subtype="SteelPlate" Count="155" />
+        <Component Subtype="Construction" Count="75" />
+		<Component Subtype="Computer" Count="50" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="50" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -56,7 +63,7 @@
       <MaxPowerConsumption>.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>14400000</ForceMagnitude>
+      <ForceMagnitude>13320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -120,13 +127,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="44" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="22" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -147,7 +154,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1800000</ForceMagnitude>
+      <ForceMagnitude>1998000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -198,13 +205,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="20" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="52" />
+		<Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -234,7 +241,7 @@
       <MaxPowerConsumption>.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>800000</ForceMagnitude>
+      <ForceMagnitude>888000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -297,13 +304,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBSHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="10" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
-        <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="12" />
+        <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="5" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="2" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -324,7 +331,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>164000</ForceMagnitude>
+      <ForceMagnitude>182040</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -378,13 +385,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="100" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="255" />
+        <Component Subtype="SteelPlate" Count="155" />
+        <Component Subtype="Construction" Count="75" />
+		<Component Subtype="Computer" Count="50" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="50" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -418,7 +425,7 @@
       <MaxPowerConsumption>.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>14400000</ForceMagnitude>
+      <ForceMagnitude>13320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -460,13 +467,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="44" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="22" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -487,7 +494,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1800000</ForceMagnitude>
+      <ForceMagnitude>1998000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -538,13 +545,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="20" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="52" />
+		<Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -578,7 +585,7 @@
       <MaxPowerConsumption>.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>800000</ForceMagnitude>
+      <ForceMagnitude>888000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -620,11 +627,11 @@
       <Model>Models\Cubes\Small\SBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="10" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
         <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="5" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="12" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
@@ -646,7 +653,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>164000</ForceMagnitude>
+      <ForceMagnitude>182040</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -700,13 +707,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="100" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="255" />
+        <Component Subtype="SteelPlate" Count="155" />
+        <Component Subtype="Construction" Count="75" />
+		<Component Subtype="Computer" Count="50" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="50" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -739,7 +746,7 @@
       <MaxPowerConsumption>.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>14400000</ForceMagnitude>
+      <ForceMagnitude>13320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -781,13 +788,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="44" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="22" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -808,7 +815,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1800000</ForceMagnitude>
+      <ForceMagnitude>1998000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -859,13 +866,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="20" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="52" />
+		<Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -898,7 +905,7 @@
       <MaxPowerConsumption>.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>800000</ForceMagnitude>
+      <ForceMagnitude>888000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -940,11 +947,11 @@
       <Model>Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="10" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
         <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="5" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="12" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
@@ -1034,13 +1041,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="200" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="382" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="75" />
+		<Component Subtype="Computer" Count="100" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="190" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1071,7 +1078,7 @@
       <MaxPowerConsumption>.3</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>28800000</ForceMagnitude>
+      <ForceMagnitude>19080000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1135,13 +1142,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="80" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="66" />
+		<Component Subtype="Computer" Count="40" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="33" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1162,7 +1169,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3600000</ForceMagnitude>
+      <ForceMagnitude>2862000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1213,13 +1220,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="78" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="40" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1249,7 +1256,7 @@
       <MaxPowerConsumption>.3</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1600000</ForceMagnitude>
+      <ForceMagnitude>1272000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1313,11 +1320,11 @@
       <Model>Models\Cubes\Small\SBSHAE_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="20" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
         <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="18" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
@@ -1339,7 +1346,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>328000</ForceMagnitude>
+      <ForceMagnitude>260760</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -1392,13 +1399,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="200" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="382" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="125" />
+		<Component Subtype="Computer" Count="100" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="190" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1432,7 +1439,7 @@
       <MaxPowerConsumption>.3</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>24000000</ForceMagnitude>
+      <ForceMagnitude>19080000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1475,12 +1482,12 @@
       <Model>Models\Cubes\Large\LBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="80" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="66" />
+		<Component Subtype="Computer" Count="40" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="33" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1501,7 +1508,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3600000</ForceMagnitude>
+      <ForceMagnitude>2862000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1552,13 +1559,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="78" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="35" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1592,7 +1599,7 @@
       <MaxPowerConsumption>.3</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1600000</ForceMagnitude>
+      <ForceMagnitude>1272000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1634,11 +1641,11 @@
       <Model>Models\Cubes\Small\SBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="20" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
-        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Construction" Count="20" />
+		<Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="18" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
@@ -1660,7 +1667,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>328000</ForceMagnitude>
+      <ForceMagnitude>260760</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -1713,13 +1720,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="200" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="382" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="125" />
+		<Component Subtype="Computer" Count="100" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="190" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1752,7 +1759,7 @@
       <MaxPowerConsumption>.3</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>24000000</ForceMagnitude>
+      <ForceMagnitude>19080000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1794,13 +1801,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="80" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="66" />
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="Construction" Count="10" />
+		<Component Subtype="Computer" Count="40" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="33" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1821,7 +1828,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3600000</ForceMagnitude>
+      <ForceMagnitude>2862000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1873,12 +1880,12 @@
       <Model>Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="78" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="35" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -1911,7 +1918,7 @@
       <MaxPowerConsumption>.3</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1600000</ForceMagnitude>
+      <ForceMagnitude>1272000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1952,11 +1959,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="20" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="SteelPlate" Count="12" />
+        <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="10" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="18" />
       </Components>
@@ -1979,7 +1986,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>328000</ForceMagnitude>
+      <ForceMagnitude>260760</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -2047,13 +2054,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="400" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="510" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="75" />
+		<Component Subtype="Computer" Count="200" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="255" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2084,7 +2091,7 @@
       <MaxPowerConsumption>.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>48000000</ForceMagnitude>
+      <ForceMagnitude>24840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2148,13 +2155,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="160" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="88" />
+		<Component Subtype="Computer" Count="80" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="45" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2175,7 +2182,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>7200000</ForceMagnitude>
+      <ForceMagnitude>3726000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2226,13 +2233,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="60" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="104" />
+		<Component Subtype="Computer" Count="30" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="50" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2262,7 +2269,7 @@
       <MaxPowerConsumption>.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3200000</ForceMagnitude>
+      <ForceMagnitude>1656000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2326,12 +2333,12 @@
       <Model>Models\Cubes\Small\SBSHAE_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
         <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="24" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="12" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2352,7 +2359,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>656000</ForceMagnitude>
+      <ForceMagnitude>339480</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -2405,13 +2412,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="400" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="510" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="125" />
+		<Component Subtype="Computer" Count="200" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="255" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2445,7 +2452,7 @@
       <MaxPowerConsumption>.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>48000000</ForceMagnitude>
+      <ForceMagnitude>24840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2487,13 +2494,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="160" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="88" />
+		<Component Subtype="Computer" Count="80" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="45" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2515,7 +2522,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>7200000</ForceMagnitude>
+      <ForceMagnitude>3726000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2566,13 +2573,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="60" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="104" />
+		<Component Subtype="Computer" Count="30" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="55" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2605,7 +2612,7 @@
       <MaxPowerConsumption>.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3200000</ForceMagnitude>
+      <ForceMagnitude>1656000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2647,10 +2654,10 @@
       <Model>Models\Cubes\Small\SBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="24" />
       </Components>
@@ -2674,7 +2681,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>656000</ForceMagnitude>
+      <ForceMagnitude>339480</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -2727,13 +2734,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-		<Component Subtype="Computer" Count="400" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="510" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="125" />
+		<Component Subtype="Computer" Count="200" />
+        <Component Subtype="MetalGrid" Count="125" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="255" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2766,7 +2773,7 @@
       <MaxPowerConsumption>.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>48000000</ForceMagnitude>
+      <ForceMagnitude>24840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2808,13 +2815,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="160" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="88" />
+		<Component Subtype="Computer" Count="80" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="44" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2835,7 +2842,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>7200000</ForceMagnitude>
+      <ForceMagnitude>3726000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2886,13 +2893,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="60" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="104" />
+		<Component Subtype="Computer" Count="30" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="55" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -2925,7 +2932,7 @@
       <MaxPowerConsumption>.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3200000</ForceMagnitude>
+      <ForceMagnitude>1656000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2967,11 +2974,11 @@
       <Model>Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="40" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
         <Component Subtype="Construction" Count="5" />
+		<Component Subtype="Computer" Count="20" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="24" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
@@ -2993,7 +3000,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>656000</ForceMagnitude>
+      <ForceMagnitude>339480</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -3061,15 +3068,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-        <Component Subtype="MetalGrid" Count="250" />
-		<Component Subtype="largehydrogeninjector" Count="90" />
-		<Component Subtype="Computer" Count="800" />
-        <Component Subtype="LargeTube" Count="40" />
-		<Component Subtype="largehydrogeninjector" Count="10" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="637" />
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="125" />
+        <Component Subtype="MetalGrid" Count="125" />
+		<Component Subtype="largehydrogeninjector" Count="35" />
+		<Component Subtype="Computer" Count="400" />
+        <Component Subtype="LargeTube" Count="20" />
+		<Component Subtype="largehydrogeninjector" Count="5" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="315" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3100,7 +3107,7 @@
       <MaxPowerConsumption>.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>96000000</ForceMagnitude>
+      <ForceMagnitude>29880000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3164,15 +3171,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="320" />
-		<Component Subtype="largehydrogeninjector" Count="35" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
-		<Component Subtype="largehydrogeninjector" Count="15" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="110" />
+		<Component Subtype="Computer" Count="160" />
+		<Component Subtype="largehydrogeninjector" Count="15" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+		<Component Subtype="largehydrogeninjector" Count="7" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="55" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3193,7 +3200,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>14400000</ForceMagnitude>
+      <ForceMagnitude>4482000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3244,15 +3251,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="80" />
-		<Component Subtype="largehydrogeninjector" Count="6" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="130" />
+		<Component Subtype="Computer" Count="40" />
+		<Component Subtype="largehydrogeninjector" Count="3" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="65" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3282,7 +3289,7 @@
       <MaxPowerConsumption>.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>6400000</ForceMagnitude>
+      <ForceMagnitude>1992000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3346,14 +3353,14 @@
       <Model>Models\Cubes\Small\SBSHAE_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="60" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
         <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="30" />
+		<Component Subtype="Computer" Count="30" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="15" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3374,7 +3381,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1312000</ForceMagnitude>
+      <ForceMagnitude>408360</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -3428,15 +3435,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-        <Component Subtype="MetalGrid" Count="250" />
-		<Component Subtype="largehydrogeninjector" Count="90" />
-		<Component Subtype="Computer" Count="800" />
-        <Component Subtype="LargeTube" Count="40" />
-		<Component Subtype="largehydrogeninjector" Count="10" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="637" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="125" />
+        <Component Subtype="MetalGrid" Count="125" />
+		<Component Subtype="largehydrogeninjector" Count="45" />
+		<Component Subtype="Computer" Count="400" />
+        <Component Subtype="LargeTube" Count="20" />
+		<Component Subtype="largehydrogeninjector" Count="5" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="315" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3470,7 +3477,7 @@
       <MaxPowerConsumption>.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>96000000</ForceMagnitude>
+      <ForceMagnitude>29880000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3512,15 +3519,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\LBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="320" />
-		<Component Subtype="largehydrogeninjector" Count="35" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
-		<Component Subtype="largehydrogeninjector" Count="15" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="110" />
+		<Component Subtype="Computer" Count="160" />
+		<Component Subtype="largehydrogeninjector" Count="17" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+		<Component Subtype="largehydrogeninjector" Count="7" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="55" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3541,7 +3548,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>14400000</ForceMagnitude>
+      <ForceMagnitude>4482000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3592,15 +3599,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\SBLHAE_Slope_nukeguard.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="80" />
-		<Component Subtype="largehydrogeninjector" Count="6" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="130" />
+		<Component Subtype="Computer" Count="40" />
+		<Component Subtype="largehydrogeninjector" Count="3" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="65" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3634,7 +3641,7 @@
       <MaxPowerConsumption>.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>6400000</ForceMagnitude>
+      <ForceMagnitude>1992000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3676,14 +3683,14 @@
       <Model>Models\Cubes\Small\SBSHAE_Slope_nukeguard.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="60" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
         <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="30" />
+		<Component Subtype="Computer" Count="15" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="15" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3704,7 +3711,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1312000</ForceMagnitude>
+      <ForceMagnitude>408360</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -3757,15 +3764,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-        <Component Subtype="MetalGrid" Count="250" />
-		<Component Subtype="largehydrogeninjector" Count="90" />
-		<Component Subtype="Computer" Count="800" />
-        <Component Subtype="LargeTube" Count="40" />
-		<Component Subtype="largehydrogeninjector" Count="10" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="637" />
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="75" />
+        <Component Subtype="MetalGrid" Count="125" />
+		<Component Subtype="largehydrogeninjector" Count="45" />
+		<Component Subtype="Computer" Count="400" />
+        <Component Subtype="LargeTube" Count="20" />
+		<Component Subtype="largehydrogeninjector" Count="5" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SteelPlate" Count="315" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3798,7 +3805,7 @@
       <MaxPowerConsumption>.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>96000000</ForceMagnitude>
+      <ForceMagnitude>29880000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3854,15 +3861,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-		<Component Subtype="Computer" Count="320" />
-		<Component Subtype="largehydrogeninjector" Count="35" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
-		<Component Subtype="largehydrogeninjector" Count="15" />
+        <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="110" />
+		<Component Subtype="Computer" Count="160" />
+		<Component Subtype="largehydrogeninjector" Count="15" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+		<Component Subtype="largehydrogeninjector" Count="7" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="55" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3883,7 +3890,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>14400000</ForceMagnitude>
+      <ForceMagnitude>4482000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3934,15 +3941,15 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="Computer" Count="80" />
-		<Component Subtype="largehydrogeninjector" Count="6" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="130" />
+		<Component Subtype="Computer" Count="40" />
+		<Component Subtype="largehydrogeninjector" Count="3" />
+        <Component Subtype="MetalGrid" Count="11" />
+        <Component Subtype="LargeTube" Count="5" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="65" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -3975,7 +3982,7 @@
       <MaxPowerConsumption>.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>6400000</ForceMagnitude>
+      <ForceMagnitude>1992000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -4017,14 +4024,14 @@
       <Model>Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-		<Component Subtype="Computer" Count="60" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
-		<Component Subtype="largehydrogeninjector" Count="1" />
         <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="30" />
+		<Component Subtype="Computer" Count="30" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="1" />
+		<Component Subtype="largehydrogeninjector" Count="1" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="15" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -4045,7 +4052,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1312000</ForceMagnitude>
+      <ForceMagnitude>408360</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -4104,7 +4111,7 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="SmallTube" Count="20" />
         <Component Subtype="Computer" Count="20" />
-        <Component Subtype="ImpossibilityCore" Count="1">
+        <Component Subtype="ImpossibilityCore500" Count="1">
 			<DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>ProbabilityShard</SubtypeId>
@@ -4113,7 +4120,7 @@
         <Component Subtype="Motor" Count="2" />
         <Component Subtype="SteelPlate" Count="20" />
       </Components>
-      <CriticalComponent Subtype="ImpossibilityCore" Index="0" />
+      <CriticalComponent Subtype="ImpossibilityCore500" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
 		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4171,7 +4178,7 @@
         <Component Subtype="Construction" Count="80" />
         <Component Subtype="SmallTube" Count="40" />
         <Component Subtype="Computer" Count="20" />
-        <Component Subtype="ImpossibilityCore" Count="1">
+        <Component Subtype="ImpossibilityCore1000" Count="1">
 			<DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>ProbabilityShard</SubtypeId>
@@ -4180,7 +4187,7 @@
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="SteelPlate" Count="40" />
       </Components>
-      <CriticalComponent Subtype="ImpossibilityCore" Index="0" />
+      <CriticalComponent Subtype="ImpossibilityCore1000" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
 		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4279,7 +4286,7 @@
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <EnableFirstPerson>true</EnableFirstPerson>
       <IsPressurized>true</IsPressurized>
-      <OxygenCapacity>1</OxygenCapacity>
+      <OxygenCapacity>10</OxygenCapacity>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <IdlePowerConsumption>0.00003</IdlePowerConsumption>
       <OutsideSound>BlockCryoOut</OutsideSound>
@@ -4300,7 +4307,7 @@
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>SmallJumpDrive</SubtypeId>
       </Id>
-      <DisplayName>Blink Drive</DisplayName>
+      <DisplayName>Jump Drive</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4342,10 +4349,10 @@
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>0.556</RequiredPowerInput>
-      <PowerNeededForJump>0.001</PowerNeededForJump> <!-- 0.001 = 10sec recharge -->
+      <PowerNeededForJump>0.096</PowerNeededForJump> <!-- 0.096 = 16min -->
       
       <MaxJumpDistance>200000</MaxJumpDistance> <!-- 21km jump distance -->
-      <MaxJumpMass>100000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
+      <MaxJumpMass>300000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -4399,9 +4406,9 @@
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
 
-      <MaxJumpDistance>200000000</MaxJumpDistance> <!-- Jump distance -->
+      <MaxJumpDistance>4000000</MaxJumpDistance> <!-- Jump distance -->
       <MaxJumpMass>12500000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
-      <PowerNeededForJump>0.035</PowerNeededForJump> <!-- 0.001 = 10sec recharge -->
+      <PowerNeededForJump>0.184</PowerNeededForJump> <!-- 0.001 = 10sec recharge -->
       
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
@@ -4746,7 +4753,7 @@
       </Id>
       <DisplayName>Hydrogen Tank 3x3x3</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
-      <Description>Description_HydrogenTank</Description>
+      <Description>This hydrogen tank fits better into your small ships than vanilla hydrogen tanks, but still maintains that vanilla style.</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4850,7 +4857,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>112500</ForceMagnitude>
+      <ForceMagnitude>212500</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -4927,7 +4934,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>10250</ForceMagnitude>
+      <ForceMagnitude>20250</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -6622,15 +6629,6 @@
 
 
   </EmissiveColors>
-   <BlueprintClassEntries>
-  
-   <!-- Large Block -->
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/500ImpossibilityCube" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/1000ImpossibilityCube" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/INB4Module" />
-	<Entry Class="Components" BlueprintSubtypeId="ImpossibilityCoreComponent" />
-	
-  </BlueprintClassEntries>
  <BlockPositions>
       <BlockPosition>
       <Name>500Upgrade</Name>

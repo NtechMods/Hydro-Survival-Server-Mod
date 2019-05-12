@@ -38,12 +38,13 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ImpossibilityCoreItem</SubtypeId>
       </Id>
-      <DisplayName>Impossibility Core</DisplayName>
+      <DisplayName>Impossibility Cores</DisplayName>
       <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
       <Prerequisites>
 		<Item Amount="9000" TypeId="Ingot" SubtypeId="ProbabilityShard" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore" />
+      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore500" />
+      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore1000" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 	
@@ -125,9 +126,27 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>ImpossibilityCore</SubtypeId>
+        <SubtypeId>ImpossibilityCore500</SubtypeId>
       </Id>
-      <DisplayName>Impossibility Core</DisplayName>
+      <DisplayName>Impossibility Core 500</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Size>
+        <X>0.04</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\ImpossibilityCore.mwm</Model>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.0002</DropProbability>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ImpossibilityCore1000</SubtypeId>
+      </Id>
+      <DisplayName>Impossibility Core 1000</DisplayName>
       <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
       <Size>
         <X>0.04</X>
@@ -219,8 +238,12 @@
 	<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBLAtmosT4" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LBSAtmosT4" />
 	
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="500ImpossibilityCore" />
+	<Entry Class="LargeBlocks" BlueprintSubtypeId="1000ImpossibilityCore" />
+	
 	<Entry Class="Components" BlueprintSubtypeId="largehydrogeninjector" />
-	<Entry Class="Components" BlueprintSubtypeId="ImpossibilityCoreItem" />
+	<Entry Class="Components" BlueprintSubtypeId="ImpossibilityCore500" />
+	<Entry Class="Components" BlueprintSubtypeId="ImpossibilityCore1000" />
 	<Entry Class="compressassemblymods" BlueprintSubtypeId="cablargehydrogeninjector" />
 	<Entry Class="Ingots" BlueprintSubtypeId="ProbabilityShardOretoIngot" />
 
