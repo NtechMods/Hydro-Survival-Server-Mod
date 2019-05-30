@@ -41,7 +41,7 @@
       <DisplayName>Impossibility Cores</DisplayName>
       <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
       <Prerequisites>
-		<Item Amount="9000" TypeId="Ingot" SubtypeId="ProbabilityShard" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="ProbabilityShard" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore500" />
       <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore1000" />

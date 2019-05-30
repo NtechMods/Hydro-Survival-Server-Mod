@@ -3,13 +3,14 @@
 
    
  <!--Cubeblocks start -->
- <!-- Thrust values 
-         Vanilla    Tier 1      Tier 2      Tier 3      Tier 4
-LB L     7200000    13320000    19080000    24840000    29880000
-LB S     1080000    1998000     2862000     3726000     4482000
 
-SB L     480000     888000      1272000     1656000     1992000
-SB S     98400      182040      260760      339480      408360
+<!-- Thrust values 
+         Vanilla    Tier 1      Tier 2      Tier 3      Tier 4
+LB L     7200000    14400000    28800000    43200000    57600000
+LB S     1080000    2160000     4320000     6480000     8640000
+
+SB L     480000     960000      1920000     2880000     3840000
+SB S     98400      196800      393600      590400      787200
 -->
   <CubeBlocks>
      <!--HydrogenThrusters level 1 -->    
@@ -58,12 +59,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>13320000</ForceMagnitude>
+      <ForceMagnitude>14400000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -154,7 +155,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1998000</ForceMagnitude>
+      <ForceMagnitude>2160000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -166,9 +167,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -236,12 +237,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>0.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>888000</ForceMagnitude>
+      <ForceMagnitude>960000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -331,13 +332,13 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>182040</ForceMagnitude>
+      <ForceMagnitude>196800</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>0.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -420,12 +421,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>13320000</ForceMagnitude>
+      <ForceMagnitude>14400000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -494,7 +495,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1998000</ForceMagnitude>
+      <ForceMagnitude>2160000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -506,9 +507,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -580,12 +581,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>888000</ForceMagnitude>
+      <ForceMagnitude>960000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -653,15 +654,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>182040</ForceMagnitude>
+      <ForceMagnitude>196800</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -741,12 +742,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>13320000</ForceMagnitude>
+      <ForceMagnitude>14400000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -815,7 +816,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1998000</ForceMagnitude>
+      <ForceMagnitude>2160000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -827,9 +828,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -900,12 +901,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>0.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>888000</ForceMagnitude>
+      <ForceMagnitude>960000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -979,9 +980,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.2</Efficiency>
+        <Efficiency>0.95</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.2</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -1073,12 +1074,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>19080000</ForceMagnitude>
+      <ForceMagnitude>28800000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1169,7 +1170,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>2862000</ForceMagnitude>
+      <ForceMagnitude>4320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1181,9 +1182,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -1251,12 +1252,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1272000</ForceMagnitude>
+      <ForceMagnitude>1920000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1346,15 +1347,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>260760</ForceMagnitude>
+      <ForceMagnitude>393600</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -1434,12 +1435,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>19080000</ForceMagnitude>
+      <ForceMagnitude>28800000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1508,7 +1509,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>2862000</ForceMagnitude>
+      <ForceMagnitude>4320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1520,9 +1521,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -1594,12 +1595,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1272000</ForceMagnitude>
+      <ForceMagnitude>1920000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1667,15 +1668,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>260760</ForceMagnitude>
+      <ForceMagnitude>393600</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -1754,12 +1755,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>19080000</ForceMagnitude>
+      <ForceMagnitude>28800000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1828,7 +1829,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>2862000</ForceMagnitude>
+      <ForceMagnitude>4320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1840,9 +1841,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -1913,12 +1914,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1272000</ForceMagnitude>
+      <ForceMagnitude>1920000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1986,15 +1987,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>260760</ForceMagnitude>
+      <ForceMagnitude>393600</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.4</Efficiency>
+        <Efficiency>0.85</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.3</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -2086,12 +2087,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>24840000</ForceMagnitude>
+      <ForceMagnitude>43200000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2182,7 +2183,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3726000</ForceMagnitude>
+      <ForceMagnitude>6480000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2194,9 +2195,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -2264,12 +2265,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1656000</ForceMagnitude>
+      <ForceMagnitude>2880000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2359,15 +2360,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>339480</ForceMagnitude>
+      <ForceMagnitude>590400</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -2447,12 +2448,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>24840000</ForceMagnitude>
+      <ForceMagnitude>43200000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2522,7 +2523,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3726000</ForceMagnitude>
+      <ForceMagnitude>6480000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2534,9 +2535,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -2607,12 +2608,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1656000</ForceMagnitude>
+      <ForceMagnitude>2880000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2681,15 +2682,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>339480</ForceMagnitude>
+      <ForceMagnitude>590400</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 
@@ -2768,12 +2769,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>24840000</ForceMagnitude>
+      <ForceMagnitude>43200000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2842,7 +2843,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>3726000</ForceMagnitude>
+      <ForceMagnitude>6480000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -2854,9 +2855,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -2927,12 +2928,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1656000</ForceMagnitude>
+      <ForceMagnitude>2880000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3000,15 +3001,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>100</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>339480</ForceMagnitude>
+      <ForceMagnitude>590400</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.6</Efficiency>
+        <Efficiency>0.70</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.4</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -3102,12 +3103,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>29880000</ForceMagnitude>
+      <ForceMagnitude>57600000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3200,7 +3201,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>4482000</ForceMagnitude>
+      <ForceMagnitude>8640000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3212,9 +3213,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -3284,12 +3285,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1992000</ForceMagnitude>
+      <ForceMagnitude>3840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3381,15 +3382,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>408360</ForceMagnitude>
+      <ForceMagnitude>787200</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -3472,12 +3473,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>29880000</ForceMagnitude>
+      <ForceMagnitude>57600000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3548,7 +3549,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>4482000</ForceMagnitude>
+      <ForceMagnitude>8640000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3560,9 +3561,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -3636,12 +3637,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1992000</ForceMagnitude>
+      <ForceMagnitude>3840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3711,15 +3712,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>408360</ForceMagnitude>
+      <ForceMagnitude>787200</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -3800,12 +3801,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>29880000</ForceMagnitude>
+      <ForceMagnitude>57600000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3890,7 +3891,7 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>4482000</ForceMagnitude>
+      <ForceMagnitude>8640000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -3902,9 +3903,9 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <FlameDamageLengthScale>0.08</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -3977,12 +3978,12 @@ SB S     98400      182040      260760      339480      408360
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>1992000</ForceMagnitude>
+      <ForceMagnitude>3840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -4052,15 +4053,15 @@ SB S     98400      182040      260760      339480      408360
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>408360</ForceMagnitude>
+      <ForceMagnitude>787200</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>1.8</Efficiency>
+        <Efficiency>0.55</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>.5</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
