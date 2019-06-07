@@ -4230,77 +4230,6 @@ SB S     98400      196800      393600      590400      787200
       <DamagedSound>ParticleElectrical</DamagedSound>
     </Definition>
 	
-	<!-- Cryopod for small grid tehehehehe -->
-    <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
-      <Id>
-        <TypeId>CryoChamber</TypeId>
-        <SubtypeId>SmallBlockCryoChamber</SubtypeId>
-      </Id>
-      <DisplayName>SmallCryoChamber</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CryoPod.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="5" z="5" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\CryoPod.mwm</Model>
-	  <InteriorModel>Models\Cubes\Large\CryoPodInterior.mwm</InteriorModel>
-      <CharacterAnimation>Idle</CharacterAnimation>
-      <Components>
-        <Component Subtype="InteriorPlate" Count="30" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Display" Count="8" />
-        <Component Subtype="Computer" Count="30" />
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="BulletproofGlass" Count="10" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.1" EndX="4.8" EndY="4.7" Default="true" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="4.8" EndY="4.9" />
-        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="4.8" EndY="4.7" />
-        <MountPoint Side="Back" StartX="0.05" StartY="0.7" EndX="4.95" EndY="4.95" />
-        <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="4.8" EndY="4.8" />
-        <MountPoint Side="Right" StartX="0.2" StartY="0.4" EndX="4.6" EndY="4.8" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CryoPodConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CryoPodConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CryoPodConstruction_3.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <StaticMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>CryoChamber</BlockPairName>
-      <OverlayTexture>Textures\GUI\Screens\cryopod_interior.dds</OverlayTexture>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <BuildTimeSeconds>15</BuildTimeSeconds>
-      <EnableFirstPerson>true</EnableFirstPerson>
-      <IsPressurized>true</IsPressurized>
-      <OxygenCapacity>10</OxygenCapacity>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <IdlePowerConsumption>0.00003</IdlePowerConsumption>
-      <OutsideSound>BlockCryoOut</OutsideSound>
-      <InsideSound>BlockCryoIn</InsideSound>
-      <EnclosedCockpit>true</EnclosedCockpit>
-      <EdgeType>Light</EdgeType>
-      <DamageEffectId>214</DamageEffectId>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-    </Definition>
-	
-	
-	
 	
 	<!-- JumpDrive for small grid. Mwaahhahahahahhaaaa -->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
@@ -6529,7 +6458,6 @@ SB S     98400      196800      393600      590400      787200
 		<string>EezoLargeBlockGyro</string>
 		<string>SBSmallBattery</string>
 		<string>SmallJumpDrive</string>
-		<string>SmallBlockCryoChamber</string>
       </ItemIds>
     </Category>
   </CategoryClasses>
