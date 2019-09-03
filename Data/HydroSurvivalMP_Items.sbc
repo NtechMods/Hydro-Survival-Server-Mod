@@ -102,6 +102,10 @@
       <Mass>40</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\largehydroinjector.mwm</Model>
+            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>40</MaxIntegrity>
       <DropProbability>0.2</DropProbability>
     </Component>    
@@ -120,6 +124,10 @@
       <Mass>40</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\largehydroinjector.mwm</Model>
+            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>40</MaxIntegrity>
       <DropProbability>0.2</DropProbability>
     </Component>
@@ -138,6 +146,10 @@
       <Mass>8</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\ImpossibilityCore.mwm</Model>
+            <MinimalPricePerUnit>10000000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.0002</DropProbability>
     </Component>
@@ -156,6 +168,10 @@
       <Mass>8</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\ImpossibilityCore.mwm</Model>
+            <MinimalPricePerUnit>100000000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.0002</DropProbability>
     </Component>
@@ -180,6 +196,15 @@
       <Mass>0.001</Mass>
       <Volume>0.001</Volume>
       <Model>Models\Components\ImpossibilityCore.mwm</Model>
+            <MinimalPricePerUnit>500000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>1000000000</MinimumOfferAmount>
+            <MaximumOfferAmount>9000000000</MaximumOfferAmount>
+            <MinimumOrderAmount>1000000000</MinimumOrderAmount>
+            <MaximumOrderAmount>9000000000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5</MaximumAcquisitionAmount>
       <IconSymbol>Pshard</IconSymbol>
     </PhysicalItem>
 
