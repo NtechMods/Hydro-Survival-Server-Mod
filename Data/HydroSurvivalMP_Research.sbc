@@ -499,21 +499,63 @@
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier1" />
       <Members>
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT1" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHAT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHAT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHAT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHVT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHVT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHVT1" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHVT1" />
 	  </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier2" />
       <Members>
-        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT2" />		
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT2" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHAT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHAT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHAT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHVT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHVT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHVT2" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHVT2" />
 	  </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier3" />
       <Members>
-        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT3" />		
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHAT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHAT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHAT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHVT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHVT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHVT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHVT3" />
 	  </Members>
     </ResearchGroup>
 	
