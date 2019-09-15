@@ -41,7 +41,7 @@
       <DisplayName>Impossibility Cores</DisplayName>
       <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
       <Prerequisites>
-		<Item Amount="200" TypeId="Ingot" SubtypeId="ProbabilityShard" />
+		<Item Amount="5" TypeId="Ingot" SubtypeId="ProbabilityShard" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -113,7 +113,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>advancedlargehydrogeninjector</SubtypeId>
       </Id>
-      <DisplayName>Large Hydrogen Injector</DisplayName>
+      <DisplayName>Advanced Large Hydrogen Injector</DisplayName>
       <Icon>Textures\Icons\injector.dds</Icon>
       <Size>
         <X>0.04</X>
@@ -123,12 +123,34 @@
       <Mass>40</Mass>
       <Volume>15</Volume>
       <Model>Models\Components\largehydroinjector.mwm</Model>
-            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimalPricePerUnit>500000</MinimalPricePerUnit>
             <MinimumOfferAmount>10</MinimumOfferAmount>
             <MaximumOfferAmount>48</MaximumOfferAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>40</MaxIntegrity>
       <DropProbability>0.2</DropProbability>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ImpossibilityCore</SubtypeId>
+      </Id>
+      <DisplayName>Impossibility Core</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Size>
+        <X>0.04</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\ImpossibilityCore.mwm</Model>
+            <MinimalPricePerUnit>2000000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.0002</DropProbability>
     </Component>
     <Component>
       <Id>
@@ -145,10 +167,6 @@
       <Mass>8</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\ImpossibilityCore.mwm</Model>
-            <MinimalPricePerUnit>10000000000</MinimalPricePerUnit>
-            <MinimumOfferAmount>10</MinimumOfferAmount>
-            <MaximumOfferAmount>48</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.0002</DropProbability>
     </Component>
@@ -167,10 +185,6 @@
       <Mass>8</Mass>
       <Volume>3</Volume>
       <Model>Models\Components\ImpossibilityCore.mwm</Model>
-            <MinimalPricePerUnit>100000000000</MinimalPricePerUnit>
-            <MinimumOfferAmount>10</MinimumOfferAmount>
-            <MaximumOfferAmount>48</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>0.0002</DropProbability>
     </Component>
@@ -196,10 +210,10 @@
       <Volume>0.001</Volume>
       <Model>Models\Components\ImpossibilityCore.mwm</Model>
             <MinimalPricePerUnit>500000000</MinimalPricePerUnit>
-            <MinimumOfferAmount>1000000000</MinimumOfferAmount>
-            <MaximumOfferAmount>9000000000</MaximumOfferAmount>
-            <MinimumOrderAmount>1000000000</MinimumOrderAmount>
-            <MaximumOrderAmount>9000000000</MaximumOrderAmount>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>90</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
             <MinimumAcquisitionAmount>1</MinimumAcquisitionAmount>
