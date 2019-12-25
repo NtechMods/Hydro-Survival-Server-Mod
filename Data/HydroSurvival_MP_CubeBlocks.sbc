@@ -4,13 +4,16 @@
    
  <!--Cubeblocks start -->
 
-<!-- Thrust values 
+<!-- HYDROGEN Thrust values 
          Vanilla    Tier 1      Tier 2      Tier 3      Tier 4
 LB L     7200000    14400000    28800000    43200000    57600000
 LB S     1080000    2160000     4320000     6480000     8640000
 
 SB L     480000     960000      1920000     2880000     3840000
 SB S     98400      196800      393600      590400      787200
+
+Efficiency Values   
+		 1 			.53         .29         .20         .16
 -->
   <CubeBlocks>
      <!--HydrogenThrusters level 1 -->    
@@ -59,7 +62,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -167,7 +170,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -237,7 +240,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>0.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -338,7 +341,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>0.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -421,7 +424,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -507,7 +510,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -581,7 +584,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -660,7 +663,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -742,7 +745,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -828,7 +831,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -901,7 +904,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>0.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -974,15 +977,15 @@ SB S     98400      196800      393600      590400      787200
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>164000</ForceMagnitude>
+      <ForceMagnitude>196800</ForceMagnitude>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.95</Efficiency>
+        <Efficiency>0.53</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>1.25</MaxPowerConsumption>
+      <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
 	  <GuiVisible>false</GuiVisible>
@@ -1074,7 +1077,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1182,7 +1185,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1252,7 +1255,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1353,7 +1356,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1435,7 +1438,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1521,7 +1524,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1595,7 +1598,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1674,7 +1677,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1755,7 +1758,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1841,7 +1844,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1914,7 +1917,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1993,7 +1996,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.85</Efficiency>
+        <Efficiency>0.29</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2087,7 +2090,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2195,7 +2198,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2265,7 +2268,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2366,7 +2369,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2448,7 +2451,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2535,7 +2538,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2608,7 +2611,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2688,7 +2691,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2769,7 +2772,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2855,7 +2858,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2928,7 +2931,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3007,7 +3010,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.70</Efficiency>
+        <Efficiency>0.20</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3103,7 +3106,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3213,7 +3216,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3285,7 +3288,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3388,7 +3391,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3473,7 +3476,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3561,7 +3564,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3637,7 +3640,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3718,7 +3721,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3801,7 +3804,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>7.5</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3903,7 +3906,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>1.25</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3978,7 +3981,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -4059,7 +4062,7 @@ SB S     98400      196800      393600      590400      787200
           <TypeId>GasProperties</TypeId>
           <SubtypeId>Hydrogen</SubtypeId>
         </FuelId>
-        <Efficiency>0.55</Efficiency>
+        <Efficiency>0.16</Efficiency>
       </FuelConverter>
       <MaxPowerConsumption>.125</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -4238,7 +4241,6 @@ SB S     98400      196800      393600      590400      787200
         <SubtypeId>SmallJumpDrive</SubtypeId>
       </Id>
       <DisplayName>Jump Drive</DisplayName>
-      <Description>Description_JumpDrive</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4280,7 +4282,7 @@ SB S     98400      196800      393600      590400      787200
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>0.556</RequiredPowerInput>
-      <PowerNeededForJump>0.060</PowerNeededForJump> <!-- 0.060 = 10min -->
+      <PowerNeededForJump>0.096</PowerNeededForJump> <!-- 0.096 = 16min -->
       
       <MaxJumpDistance>200000</MaxJumpDistance> <!-- 21km jump distance -->
       <MaxJumpMass>300000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
@@ -4294,7 +4296,6 @@ SB S     98400      196800      393600      590400      787200
         <SubtypeId>LargeJumpDrive</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
-      <Description>Description_JumpDrive</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4338,8 +4339,8 @@ SB S     98400      196800      393600      590400      787200
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
 
-      <MaxJumpDistance>2000000</MaxJumpDistance> <!-- Jump distance -->
-      <MaxJumpMass>90000000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
+      <MaxJumpDistance>4000000</MaxJumpDistance> <!-- Jump distance -->
+      <MaxJumpMass>12500000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
       <PowerNeededForJump>0.184</PowerNeededForJump> <!-- 0.001 = 10sec recharge -->
       
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
