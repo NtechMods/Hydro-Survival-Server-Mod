@@ -4241,6 +4241,10 @@ Efficiency Values
         <SubtypeId>SmallJumpDrive</SubtypeId>
       </Id>
       <DisplayName>Jump Drive</DisplayName>
+	  <Description>Max Input = 556kW
+Max Distance = 21km
+Max Mass = 300k kg at 100%
+Max Charge =  12 min</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4282,7 +4286,7 @@ Efficiency Values
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>0.556</RequiredPowerInput>
-      <PowerNeededForJump>0.096</PowerNeededForJump> <!-- 0.096 = 16min -->
+      <PowerNeededForJump>0.072</PowerNeededForJump> <!-- 0.096 = 16min -->
       
       <MaxJumpDistance>200000</MaxJumpDistance> <!-- 21km jump distance -->
       <MaxJumpMass>300000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
@@ -4296,6 +4300,10 @@ Efficiency Values
         <SubtypeId>LargeJumpDrive</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+	  <Description>Max Input = 32MW
+Max Distance = 420km
+Max Mass = 12.5 bil kg at 100%
+Max Charge =  20 min</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4341,7 +4349,7 @@ Efficiency Values
 
       <MaxJumpDistance>4000000</MaxJumpDistance> <!-- Jump distance -->
       <MaxJumpMass>12500000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
-      <PowerNeededForJump>0.184</PowerNeededForJump> <!-- 0.001 = 10sec recharge -->
+      <PowerNeededForJump>0.120</PowerNeededForJump> <!-- 0.001 = 10sec recharge (0.120 20min)-->
       
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
