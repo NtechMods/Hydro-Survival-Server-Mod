@@ -4301,7 +4301,7 @@ Max Charge =  12 min</Description>
       </Id>
       <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
 	  <Description>Max Input = 32MW
-Max Distance = 420km
+Max Distance = 4000km
 Max Mass = 12.5 bil kg at 100%
 Max Charge =  20 min</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
