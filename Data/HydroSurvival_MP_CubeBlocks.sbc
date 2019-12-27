@@ -4286,9 +4286,9 @@ Max Charge =  12 min</Description>
 
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>0.556</RequiredPowerInput>
-      <PowerNeededForJump>0.072</PowerNeededForJump> <!-- 0.096 = 16min -->
+      <PowerNeededForJump>0.012</PowerNeededForJump> <!-- 0.096 = 16min -->
       
-      <MaxJumpDistance>200000</MaxJumpDistance> <!-- 21km jump distance -->
+      <MaxJumpDistance>20000</MaxJumpDistance> <!-- 21km jump distance -->
       <MaxJumpMass>300000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
@@ -4297,7 +4297,7 @@ Max Charge =  12 min</Description>
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>LargeJumpDrive</SubtypeId>
+        <SubtypeId>ExtendedLargeJumpDrive</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
 	  <Description>Max Input = 32MW
@@ -4347,9 +4347,9 @@ Max Charge =  20 min</Description>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
 
-      <MaxJumpDistance>4000000</MaxJumpDistance> <!-- Jump distance -->
+      <MaxJumpDistance>800000</MaxJumpDistance> <!-- Jump distance -->
       <MaxJumpMass>12500000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
-      <PowerNeededForJump>0.120</PowerNeededForJump> <!-- 0.001 = 10sec recharge (0.120 20min)-->
+      <PowerNeededForJump>2</PowerNeededForJump> <!-- 0.001 = 10sec recharge (3 7min)-->
       
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
