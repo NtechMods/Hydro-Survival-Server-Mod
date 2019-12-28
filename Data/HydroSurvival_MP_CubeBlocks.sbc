@@ -4242,7 +4242,7 @@ Efficiency Values
       </Id>
       <DisplayName>Jump Drive</DisplayName>
 	  <Description>Max Input = 556kW
-Max Distance = 21km
+Max Distance = 20km
 Max Mass = 300k kg at 100%
 Max Charge =  12 min</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
@@ -4301,8 +4301,8 @@ Max Charge =  12 min</Description>
       </Id>
       <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
 	  <Description>Max Input = 32MW
-Max Distance = 420km
-Max Mass = 12.5 bil kg at 100%
+Max Distance = 8,000km
+Max Mass = 400 mil kg at 100%
 Max Charge =  20 min</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -4347,8 +4347,8 @@ Max Charge =  20 min</Description>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
 
-      <MaxJumpDistance>800000</MaxJumpDistance> <!-- Jump distance -->
-      <MaxJumpMass>12500000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
+      <MaxJumpDistance>8000000</MaxJumpDistance> <!-- Jump distance -->
+      <MaxJumpMass>400000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
       <PowerNeededForJump>2</PowerNeededForJump> <!-- 0.001 = 10sec recharge (3 7min)-->
       
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
