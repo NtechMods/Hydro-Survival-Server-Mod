@@ -4301,8 +4301,8 @@ Max Charge =  12 min</Description>
       </Id>
       <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
 	  <Description>Max Input = 32MW
-Max Distance = 4000km
-Max Mass = 12.5 bil kg at 100%
+Max Distance = 8000km
+Max Mass = 400 mil kg at 100%
 Max Charge =  20 min</Description>
       <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -4348,7 +4348,7 @@ Max Charge =  20 min</Description>
       <RequiredPowerInput>32</RequiredPowerInput>
 
       <MaxJumpDistance>800000</MaxJumpDistance> <!-- Jump distance -->
-      <MaxJumpMass>12500000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
+      <MaxJumpMass>400000000</MaxJumpMass> <!-- Mass in kg that drive can operate at 100% -->
       <PowerNeededForJump>2</PowerNeededForJump> <!-- 0.001 = 10sec recharge (3 7min)-->
       
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
