@@ -16,19 +16,21 @@
         <GroupSubtype>16</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <!--
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="RCSIonLBST" />
       <UnlockedByGroups>
         <GroupSubtype>16</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="RCSIonSBST" />
       <UnlockedByGroups>
         <GroupSubtype>16</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
+    -->
 
 
    <!-- Tier 1 -->
@@ -185,6 +187,7 @@
         <GroupSubtype>21</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <!--
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT1" />
       <UnlockedByGroups>
@@ -209,7 +212,7 @@
         <GroupSubtype>21</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-	
+	  -->
 	<!-- Tier 2 research -->
 	
 
@@ -261,6 +264,7 @@
         <GroupSubtype>NtechThrustTier1</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <!--
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT2" />
       <UnlockedByGroups>
@@ -285,7 +289,7 @@
         <GroupSubtype>NtechThrustTier1</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-	
+	  -->
 	<!-- Tier 2 research -->
 	
     <ResearchBlock xsi:type="ResearchBlock">
@@ -336,6 +340,7 @@
         <GroupSubtype>NtechThrustTier2</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <!--
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT3" />
       <UnlockedByGroups>
@@ -360,7 +365,7 @@
         <GroupSubtype>NtechThrustTier2</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-	
+    -->
 	<!-- Tier 3 research -->
 	
     <ResearchBlock xsi:type="ResearchBlock">
@@ -411,6 +416,7 @@
         <GroupSubtype>NtechThrustTier3</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <!--
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="LBSHVT4" />
       <UnlockedByGroups>
@@ -435,6 +441,7 @@
         <GroupSubtype>NtechThrustTier3</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    -->
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeAirtightHydrogenTank" />
       <UnlockedByGroups>
@@ -510,10 +517,12 @@
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT1" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT1" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT1" />
+        <!--
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHVT1" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHVT1" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHVT1" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHVT1" />
+        -->
 	  </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">
@@ -531,19 +540,21 @@
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT2" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT2" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT2" />
+        <!--
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHVT2" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHVT2" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHVT2" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHVT2" />
+        -->
 	  </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechThrustTier3" />
-      <Members>
+      <Members><!--
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT3" />
-        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT3" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT3" />-->
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHAT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHAT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHAT3" />
@@ -552,10 +563,12 @@
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT3" />
+        <!--
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBLHVT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="LBSHVT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBLHVT3" />
         <BlockId Type="MyObjectBuilder_Thrust" Subtype="SBSHVT3" />
+        -->
 	  </Members>
     </ResearchGroup>
 	

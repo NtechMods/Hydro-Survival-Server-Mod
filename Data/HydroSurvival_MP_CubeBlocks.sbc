@@ -13,7 +13,7 @@ SB L     480000     960000      1920000     2880000     3840000
 SB S     98400      196800      393600      590400      787200
 
 Efficiency Values   
-		 1 			.53         .29         .20         .16
+		 1 			.96         .46         .30         .20
 -->
 	<CubeBlocks>
 		<!--HydrogenThrusters level 1 -->    
@@ -62,7 +62,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -174,7 +174,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -248,7 +248,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>0.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -353,7 +353,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>0.2</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -440,7 +440,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -530,7 +530,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -608,7 +608,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -691,7 +691,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -729,14 +729,14 @@ Efficiency Values
 		</Definition>
 
 		<!--Slope Armor Hdyro End-->
-		<!--Vanilla Tier Begin-->
+		<!--Vanilla Tier 1 Begin -->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>LBLHVT1</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier1</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT1.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -777,7 +777,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -821,7 +821,7 @@ Efficiency Values
 				<SubtypeId>LBSHVT1</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier1</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT1.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -867,7 +867,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -903,7 +903,7 @@ Efficiency Values
 				<SubtypeId>SBLHVT1</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier1</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT1.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -944,7 +944,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>0.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -987,7 +987,7 @@ Efficiency Values
 				<SubtypeId>SBSHVT1</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier1</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT1.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -1027,7 +1027,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.53</Efficiency>
+				<Efficiency>0.96</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1063,7 +1063,7 @@ Efficiency Values
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!--Vanilla Tier 1 End-->
+		<!-- Vanilla Tier 1 End -->
 
 
 
@@ -1125,7 +1125,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1237,7 +1237,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1311,7 +1311,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1416,7 +1416,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1502,7 +1502,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1592,7 +1592,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1670,7 +1670,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1753,7 +1753,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1790,14 +1790,14 @@ Efficiency Values
 			<Public>true</Public>
 		</Definition>
 		<!--Slope Armor Hydro End-->
-		<!--Vanilla Tier Begin-->
+		<!--Vanilla Tier 2 Begin -->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>LBLHVT2</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier2</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT2.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -1838,7 +1838,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -1882,7 +1882,7 @@ Efficiency Values
 				<SubtypeId>LBSHVT2</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier2</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT2.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -1928,7 +1928,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -1964,7 +1964,7 @@ Efficiency Values
 				<SubtypeId>SBLHVT2</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier2</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT2.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -2005,7 +2005,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2048,7 +2048,7 @@ Efficiency Values
 				<SubtypeId>SBSHVT2</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier2</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT2.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -2088,7 +2088,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.29</Efficiency>
+				<Efficiency>0.46</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2124,7 +2124,7 @@ Efficiency Values
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!--Vanilla Tier 2 End-->
+		<!-- Vanilla Tier 2 End -->
 
 
 
@@ -2186,7 +2186,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2298,7 +2298,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2372,7 +2372,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2477,7 +2477,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2563,7 +2563,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2654,7 +2654,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2731,7 +2731,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2815,7 +2815,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -2852,14 +2852,14 @@ Efficiency Values
 			<Public>true</Public>
 		</Definition>
 		<!--Armor Slope Hydrogen Thrust End T3-->
-		<!--Vanilla Tier Begin-->
+		<!--Vanilla Tier 3 Begin -->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>LBLHVT3</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier3</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT3.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -2900,7 +2900,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -2944,7 +2944,7 @@ Efficiency Values
 				<SubtypeId>LBSHVT3</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier3</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT3.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -2990,7 +2990,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3026,7 +3026,7 @@ Efficiency Values
 				<SubtypeId>SBLHVT3</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier3</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT3.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -3067,7 +3067,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3110,7 +3110,7 @@ Efficiency Values
 				<SubtypeId>SBSHVT3</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier3</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT3.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -3150,7 +3150,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.20</Efficiency>
+				<Efficiency>0.30</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3202,7 +3202,7 @@ Efficiency Values
 
 
 
-		<!--HydrogenThrusters level 4 -->    
+		<!--Hydrogen Armor Thrusters level 4 -->    
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
@@ -3250,7 +3250,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3364,7 +3364,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3440,7 +3440,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3547,7 +3547,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3583,7 +3583,7 @@ Efficiency Values
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!--HydrogenThrusters End level 4--> 
+		<!--Hydrogen Armor Thrusters End level 4--> 
 
 		<!--Sloped Hydro Armor Begin T4-->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -3636,7 +3636,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3728,7 +3728,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3808,7 +3808,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -3893,7 +3893,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -3930,14 +3930,15 @@ Efficiency Values
 			<Public>true</Public>
 		</Definition>
 		<!--Sloped Hydro Armor End-->
-		<!--Vanilla Engines Begin-->
+	
+		<!-- Vanilla Engines Tier 4 Begin -->
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>LBLHVT4</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier4</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT4.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -3980,8 +3981,9 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
+			<IconSymbol>Thing</IconSymbol>
 			<MaxPowerConsumption>7.5</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
 			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
@@ -4038,7 +4040,7 @@ Efficiency Values
 				<SubtypeId>LBSHVT4</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier4</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT4.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -4086,7 +4088,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>1.25</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -4122,7 +4124,7 @@ Efficiency Values
 				<SubtypeId>SBLHVT4</SubtypeId>
 			</Id>
 			<DisplayName>Large Hydrogen Thrust Tier4</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT4.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />
@@ -4165,7 +4167,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.6</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>     
@@ -4208,7 +4210,7 @@ Efficiency Values
 				<SubtypeId>SBSHVT4</SubtypeId>
 			</Id>
 			<DisplayName>Small Hydrogen Thrust Tier4</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT4.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -4250,7 +4252,7 @@ Efficiency Values
 					<TypeId>GasProperties</TypeId>
 					<SubtypeId>Hydrogen</SubtypeId>
 				</FuelId>
-				<Efficiency>0.16</Efficiency>
+				<Efficiency>0.20</Efficiency>
 			</FuelConverter>
 			<MaxPowerConsumption>.125</MaxPowerConsumption>
 			<MinPowerConsumption>0.000000001</MinPowerConsumption>
@@ -4286,7 +4288,7 @@ Efficiency Values
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>	
-		<!--Vanilla Engines End-->
+		<!-- Vanilla Engines Tier 4 End -->
 
 
 		<!-- 500% - 1000% upgrades -->
@@ -4301,7 +4303,7 @@ Efficiency Values
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\InfinityUpgrade.mwm</Model>
+			<Model>Models\Cubes\ImpossibilityCube.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80" />
 				<Component Subtype="Construction" Count="40" />
@@ -4326,9 +4328,9 @@ Efficiency Values
 				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\InfinityUpgrade_Constr1.mwm" />		
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\InfinityUpgrade_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\InfinityUpgrade_Constr3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\ImpossibilityCube_BS1.mwm" />		
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\ImpossibilityCube_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\ImpossibilityCube_BS3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>500Upgrade</BlockPairName>
 			<MirroringX>Z</MirroringX>
@@ -4368,7 +4370,7 @@ Efficiency Values
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\Cubes\InfinityUpgrade.mwm</Model>
+			<Model>Models\Cubes\ImpossibilityCube.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="80" />
 				<Component Subtype="Construction" Count="80" />
@@ -4393,9 +4395,9 @@ Efficiency Values
 				<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\InfinityUpgrade_Constr1.mwm" />		
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\InfinityUpgrade_Constr2.mwm" />
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\InfinityUpgrade_Constr3.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\ImpossibilityCube_BS1.mwm" />		
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\ImpossibilityCube_BS2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\ImpossibilityCube_BS3.mwm" />
 			</BuildProgressModels>
 			<BlockPairName>1000Upgrade</BlockPairName>
 			<MirroringX>Z</MirroringX>
@@ -4432,11 +4434,8 @@ Efficiency Values
 				<TypeId>JumpDrive</TypeId>
 				<SubtypeId>SmallJumpDrive</SubtypeId>
 			</Id>
-			<DisplayName>Jump Drive</DisplayName>
-			<Description>Max Input = 556kW
-Max Distance = 20km
-Max Mass = 300k kg at 100%
-Max Charge =  12 min</Description>
+			<DisplayName>Jump Drive Mini</DisplayName>
+			<Description>Max Input = 556kW / Max Distance = 20km / Max Mass = 300k kg at 100% / Max Charge =  4 min</Description>
 			<Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -4468,23 +4467,18 @@ Max Charge =  12 min</Description>
 				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>JumpDrive</BlockPairName>
+			<BlockPairName>ModifiedJumpDrive</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>10</BuildTimeSeconds>
 			<DamageEffectId>213</DamageEffectId>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
-
 			<ResourceSinkGroup>Charging</ResourceSinkGroup>
 			<RequiredPowerInput>0.556</RequiredPowerInput>
-			<PowerNeededForJump>0.012</PowerNeededForJump>
-			<!-- 0.096 = 16min -->
-
-			<MaxJumpDistance>20000</MaxJumpDistance>
-			<!-- 21km jump distance -->
-			<MaxJumpMass>300000</MaxJumpMass>
-			<!-- Mass in kg that drive can operate at 100% -->
+			<PowerNeededForJump>0.004</PowerNeededForJump><!-- 0.096 = 16min -->
+			<MaxJumpDistance>20000</MaxJumpDistance><!-- 21km jump distance -->
+			<MaxJumpMass>300000</MaxJumpMass><!-- Mass in kg that drive can operate at 100% -->
 			<EmissiveColorPreset>Extended</EmissiveColorPreset>
 			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 			<DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -4494,12 +4488,8 @@ Max Charge =  12 min</Description>
 				<TypeId>JumpDrive</TypeId>
 				<SubtypeId>ExtendedLargeJumpDrive</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Block_JumpDrive</DisplayName>
-			<Description>Max Input = 32MW
-
-Max Distance = 8000km
-Max Mass = 400 mil kg at 100%
-Max Charge =  20 min</Description>
+			<DisplayName>Modified Jump Drive</DisplayName>
+			<Description>Max Input = 32MW   Max Distance = 8000km   Max Mass = 400 mil kg at 100%   Max Charge =  20 min</Description>
 			<Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -4532,7 +4522,7 @@ Max Charge =  20 min</Description>
 				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
 			</BuildProgressModels>
-			<BlockPairName>JumpDrive</BlockPairName>
+			<BlockPairName>ModifiedJumpDrive</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
@@ -4543,9 +4533,9 @@ Max Charge =  20 min</Description>
 			<ResourceSinkGroup>Charging</ResourceSinkGroup>
 			<RequiredPowerInput>32</RequiredPowerInput>
 
-			<MaxJumpDistance>8000000</MaxJumpDistance>
+			<MaxJumpDistance>80000000</MaxJumpDistance>
 			<!-- Jump distance -->
-			<MaxJumpMass>400000000</MaxJumpMass>
+			<MaxJumpMass>400000000000</MaxJumpMass>
 			<!-- Mass in kg that drive can operate at 100% -->
 			<PowerNeededForJump>2</PowerNeededForJump>
 			<!-- 0.001 = 10sec recharge (3 7min)-->
@@ -4669,7 +4659,7 @@ Max Charge =  20 min</Description>
 			<DamageEffectId>214</DamageEffectId>
 			<DamagedSound>ParticleElectrical</DamagedSound>
 		</Definition>
-		<!-- Airtight Hydrogen Tank -->
+		<!-- Hydrogen Tanks
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
 			<Id>
 				<TypeId>OxygenTank</TypeId>
@@ -4718,7 +4708,7 @@ Max Charge =  20 min</Description>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<OperationalPowerConsumption>0.001</OperationalPowerConsumption>
 			<StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-			<Capacity>5000000</Capacity>
+			<Capacity>6000000</Capacity>
 			<InventoryMaxVolume>0.75</InventoryMaxVolume>
 			<InventorySize>
 				<X>2</X>
@@ -4745,7 +4735,7 @@ Max Charge =  20 min</Description>
 					<SubtypeId>LargeAirtightHydrogenTank</SubtypeId>
 				</BlockVariant>
 			</BlockVariants> 
-		</Definition>
+		</Definition> -->
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
 			<Id>
 				<TypeId>OxygenTank</TypeId>
@@ -4790,7 +4780,7 @@ Max Charge =  20 min</Description>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<OperationalPowerConsumption>0.001</OperationalPowerConsumption>
 			<StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-			<Capacity>5000000</Capacity>
+			<Capacity>6000000</Capacity>
 			<InventoryMaxVolume>0.75</InventoryMaxVolume>
 			<InventorySize>
 				<X>2</X>
@@ -4811,7 +4801,7 @@ Max Charge =  20 min</Description>
 			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 			<DestroySound>WepLrgWarheadExpl</DestroySound>
 			<PCU>25</PCU>
-			<GuiVisible>false</GuiVisible>
+			<GuiVisible>true</GuiVisible>
 			<IsAirtight>true</IsAirtight>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
@@ -4857,7 +4847,7 @@ Max Charge =  20 min</Description>
 			<ResourceSinkGroup>Factory</ResourceSinkGroup>
 			<OperationalPowerConsumption>0.001</OperationalPowerConsumption>
 			<StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
-			<Capacity>85000</Capacity>
+			<Capacity>100000</Capacity>
 			<InventoryMaxVolume>0.75</InventoryMaxVolume>
 			<InventorySize>
 				<X>2</X>
@@ -5190,7 +5180,7 @@ Max Charge =  20 min</Description>
 
 
 
-		<!--Begin Tier 1 Thrust-->   
+		<!--Begin Tier 1 Thrust   
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
@@ -5546,8 +5536,8 @@ Max Charge =  20 min</Description>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!-- End Tier 1 Thrust-->
-		<!--Begin Tier 2 Thrust-->   
+		 End Tier 1 Thrust-->
+		<!--Begin Tier 2 Thrust   
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
@@ -5903,8 +5893,8 @@ Max Charge =  20 min</Description>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!-- End Tier 2 Thrust-->
-		<!--Begin Tier 3 Thrust-->   
+		 End Tier 2 Thrust-->
+		<!--Begin Tier 3 Thrust   
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
@@ -6260,8 +6250,8 @@ Max Charge =  20 min</Description>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!-- End Tier 3 Thrust-->
-		<!--Begin Tier 4 Thrust-->   
+		 End Tier 3 Thrust-->
+		<!--Begin Tier 4 Thrust   
 		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
 			<Id>
 				<TypeId>Thrust</TypeId>
@@ -6617,7 +6607,7 @@ Max Charge =  20 min</Description>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<Public>true</Public>
 		</Definition>
-		<!-- End Tier 4 Thrust-->
+		 End Tier 4 Thrust-->
 
 
 
@@ -6760,16 +6750,23 @@ Max Charge =  20 min</Description>
 
 
 	</EmissiveColors>
-	<BlockPositions>
+	<BlockPositions>  
 		<BlockPosition>
-			<Name>500Upgrade</Name>
+			<Name>AirtightHydrogenTank</Name>
+			<Position>
+				<X>6</X>
+				<Y>16</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EezoGyro</Name>
 			<Position>
 				<X>9</X>
 				<Y>22</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>1000Upgrade</Name>
+			<Name>ModifiedJumpDrive</Name>
 			<Position>
 				<X>8</X>
 				<Y>22</Y>
@@ -6811,53 +6808,109 @@ Max Charge =  20 min</Description>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>EezoGyro</Name>
+			<Name>LHAT1Slope</Name>
 			<Position>
 				<X>4</X>
 				<Y>24</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>RCSIonnuke</Name>
+			<Name>LHAT2Slope</Name>
 			<Position>
 				<X>5</X>
 				<Y>24</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>RCSnuke</Name>
+			<Name>LHAT3Slope</Name>
 			<Position>
 				<X>6</X>
 				<Y>24</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>SAtmosT1</Name>
+			<Name>LHAT4Slope</Name>
+			<Position>
+				<X>7</X>
+				<Y>24</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>EezoGyro</Name>
 			<Position>
 				<X>0</X>
 				<Y>25</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
-			<Name>SAtmosT2</Name>
+			<Name>RCSIonnuke</Name>
+			<Position>
+				<X>1</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>RCSnuke</Name>
 			<Position>
 				<X>2</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LHVT1</Name>
+			<Position>
+				<X>3</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LHVT2</Name>
+			<Position>
+				<X>4</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LHVT3</Name>
+			<Position>
+				<X>5</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>LHVT4</Name>
+			<Position>
+				<X>6</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<!--<BlockPosition>
+			<Name>SAtmosT1</Name>
+			<Position>
+				<X>3</X>
+				<Y>25</Y>
+			</Position>
+		</BlockPosition>
+		<BlockPosition>
+			<Name>SAtmosT2</Name>
+			<Position>
+				<X>4</X>
 				<Y>25</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>SAtmosT3</Name>
 			<Position>
-				<X>2</X>
+				<X>5</X>
 				<Y>25</Y>
 			</Position>
 		</BlockPosition>
 		<BlockPosition>
 			<Name>SAtmosT4</Name>
 			<Position>
-				<X>3</X>
+				<X>6</X>
 				<Y>25</Y>
 			</Position>
-		</BlockPosition>
+		</BlockPosition>-->
 	</BlockPositions>
 </Definitions>

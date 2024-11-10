@@ -36,14 +36,27 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ImpossibilityCoreItem</SubtypeId>
+        <SubtypeId>ImpossibilityCore500</SubtypeId>
       </Id>
-      <DisplayName>Impossibility Cores</DisplayName>
+      <DisplayName>Impossibility Core 500</DisplayName>
       <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
       <Prerequisites>
 		<Item Amount="5" TypeId="Ingot" SubtypeId="ProbabilityShard" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore" />
+      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore500" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ImpossibilityCore1000</SubtypeId>
+      </Id>
+      <DisplayName>Impossibility Core 1000</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ImpossibilityCore.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="ProbabilityShard" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ImpossibilityCore1000" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 	

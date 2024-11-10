@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+    <!--Tier 1 Begin -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T1AtmosGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <DisplayName>Tier 1 Atmos</DisplayName>
+            <Description>Tier 1 Atmos</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT1" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T1ArmoredGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydro3x3x3_T1.dds</Icon>
+            <DisplayName>Tier 1 Armored</DisplayName>
+            <Description>Tier 1 Armored</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHAT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHAT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHAT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHAT1" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T1SlopedGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydroSlope3x3x3_T1.dds</Icon>
+            <DisplayName>Tier 1 Slope</DisplayName>
+            <Description>Tier 1 Slope</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT1" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T1VanillaGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT1.dds</Icon>
+            <DisplayName>Tier 1 Hydro</DisplayName>
+            <Description>Tier 1 Hydro</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHVT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHVT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHVT1" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHVT1" />
+            </Blocks>
+        </BlockVariantGroup>
+    <!--Tier 1 End -->
+
+    <!--Tier 2 Begin -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2AtmosGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <DisplayName>Tier 2 Atmos</DisplayName>
+            <Description>Tier 2 Atmos</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2ArmoredGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydro3x3x3_T2.dds</Icon>
+            <DisplayName>Tier 2 Armored</DisplayName>
+            <Description>Tier 2 Armored</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHAT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHAT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHAT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHAT2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2SlopedGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydroSlope3x3x3_T2.dds</Icon>
+            <DisplayName>Tier 2 Slope</DisplayName>
+            <Description>Tier 2 Slope</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT2" />
+            </Blocks>
+        </BlockVariantGroup>        
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T2VanillaGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT2.dds</Icon>
+            <DisplayName>Tier 2 Hydro</DisplayName>
+            <Description>Tier 2 Hydro</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHVT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHVT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHVT2" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHVT2" />
+            </Blocks>
+        </BlockVariantGroup>
+    <!--Tier 2 End -->
+
+    <!--Tier 3 Begin -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3AtmosGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <DisplayName>Tier 3 Atmos</DisplayName>
+            <Description>Tier 3 Atmos</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3ArmoredGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydro3x3x3_T3.dds</Icon>
+            <DisplayName>Tier 3 Armored</DisplayName>
+            <Description>Tier 3 Armored</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHAT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHAT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHAT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHAT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3SlopedGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydroSlope3x3x3_T3.dds</Icon>
+            <DisplayName>Tier 3 Slope</DisplayName>
+            <Description>Tier 3 Slope</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT3" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T3VanillaGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT3.dds</Icon>
+            <DisplayName>Tier 3 Hydro</DisplayName>
+            <Description>Tier 3 Hydro</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHVT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHVT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHVT3" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHVT3" />
+            </Blocks>
+        </BlockVariantGroup>
+    <!--Tier 3 End -->
+    
+    <!--Tier 4 Begin -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4AtmosGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <DisplayName>Tier 4 Atmos</DisplayName>
+            <Description>Tier 4 Atmos</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSAtmosT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLAtmosT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSAtmosT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLAtmosT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4ArmoredGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydro3x3x3_T4.dds</Icon>
+            <DisplayName>Tier 4 Armored</DisplayName>
+            <Description>Tier 4 Armored</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHAT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHAT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHAT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHAT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4SlopedGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorHydroSlope3x3x3_T4.dds</Icon>
+            <DisplayName>Tier 4 Slope</DisplayName>
+            <Description>Tier 4 Slope</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHASlopeT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHASlopeT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHASlopeT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHASlopeT4" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="T4VanillaGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterT4.dds</Icon>
+            <DisplayName>Tier 4 Hydro</DisplayName>
+            <Description>Tier 4 Hydro</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBLHVT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LBSHVT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBLHVT4" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SBSHVT4" />
+            </Blocks>
+        </BlockVariantGroup>    
+    <!--Tier 4 End -->
+    
+    <!-- RCS -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RCSHydroGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\RCS.dds</Icon>
+            <DisplayName>RCS Hydro + Ion Engines</DisplayName>
+            <Description>RCS Hydro + Ion Engines</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="RCSLBST" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="RCSSBST" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="RCSIonLBST" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="RCSIonSBST" />
+            </Blocks>
+        </BlockVariantGroup>  
+
+    <!-- Airtight Hydrogen tanks -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHydroTankGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+            <DisplayName>Airtight Hydro Tanks</DisplayName>
+            <Description>Large and Small Airtight Hydro Tanks</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_GasTank" Subtype="LargeAirtightHydrogenTank" />
+                <Block Type="MyObjectBuilder_GasTank" Subtype="Small3x3x3HydrogenTank" />
+            </Blocks>
+        </BlockVariantGroup>  
+
+    <!-- Modified Jump Drives -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ModifiedJumpDriveGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+            <DisplayName>Modified Jump Drives</DisplayName>
+            <Description>Large and Small Jump Drives</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="ExtendedLargeJumpDrive" />
+                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive" />
+            </Blocks>
+        </BlockVariantGroup>  
+
+    <!-- 500%/1000%/Ntech Modules -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AdvancedUpgradesGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\INB4Module.dds</Icon>
+            <DisplayName>Advanced Upgrades</DisplayName>
+            <Description>Advanced upgrade modules</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="INB4Module" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="500ImpossibilityCube" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="1000ImpossibilityCube" />
+            </Blocks>
+        </BlockVariantGroup>  
+    <!-- Eezo Gyro -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EezoGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+            <DisplayName>Eezo Gyro</DisplayName>
+            <Description>Eezo Gyro</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Gyro" Subtype="EezoLargeBlockGyro" />
+            </Blocks>
+        </BlockVariantGroup>  
+
+
+
+
+    </BlockVariantGroups>
+</Definitions>
